@@ -11,4 +11,4 @@ Faylining ichidagi kodda Sodda interfeysli "School Management System" joylashgan
 
 Ammo School 1 faylining ichidagi koddan farqi shundaki School 2 fayl ichidagi kodda Def(Function) lar foydalanilgan. 
 
-Kod optimallashtirilgan!
+<b>Kod optimallashtirilgan!</b>
