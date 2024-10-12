@@ -75,9 +75,20 @@ while True:
             
             if input_menu == 1: 
                 print("Bu sizning sinflaringiz!")
+                print(users['students'])
             elif input_menu == 2:  
                 print("Bu sizning o'quvchilaringiz!")
+                for k, v in users['students'].items():
+                    print(f"ID: {k}, FullName: {v['fullname']}, Grade: {v['grade']}, Class: {v['class']}")
             elif input_menu == 3:
+                print("Baholamoqchi bo'lgan o'quvchingizning ID sini yuboring!")
+                student_id = input('Kiriting: ')
+                for k, v in users['students'].items():
+                    print(k)
+                    print(v)
+                    if student_id in k:
+                        print(f"{k}")
+            elif input_menu == 4:
                 break
             else:
                 print("Noto'g'ri tanlov!")
